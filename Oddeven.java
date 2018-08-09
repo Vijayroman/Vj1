@@ -9,9 +9,13 @@ class Odd
         {
          System.out.println('even');
         }
-       else
+       elseif(a%2!=0)
           {
          System.out.println('odd');
         }
-       }
+       else(a<0)
+         {
+         System.out.println('Negative');
+        }
+    }
    }
